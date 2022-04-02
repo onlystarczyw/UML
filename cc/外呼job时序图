@@ -1,1 +1,291 @@
-<mxfile host="app.diagrams.net" modified="2022-03-31T09:42:16.801Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" version="17.1.3" etag="uvkPsSxAWbLdYc84yTec" type="github"><diagram id="AJKN3TOWt7p_-jlebHtq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-02T02:48:32.671Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="fxNsUZJ2FgLOYUGSJy7n" version="17.3.0" type="github">
+  <diagram id="AJKN3TOWt7p_-jlebHtq" name="Page-1">
+    <mxGraphModel dx="2677" dy="1151" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vFiyhrASQb_VoO4mL54i-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-3" target="vFiyhrASQb_VoO4mL54i-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-3" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="530" y="60" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-4" target="vFiyhrASQb_VoO4mL54i-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-4" value="获取任务" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="500" y="120" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-10" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-7" target="vFiyhrASQb_VoO4mL54i-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="430" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="463" y="205" />
+              <mxPoint x="463" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-14" value="是" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-7" target="vFiyhrASQb_VoO4mL54i-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-7" value="是否存在任务" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="180" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-12" target="vFiyhrASQb_VoO4mL54i-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-12" value="根据任务线路数设定并发外呼数" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-35" value="获取呼叫号码" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-17" target="vFiyhrASQb_VoO4mL54i-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-17" value="子任务生产者容器" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="320" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-27" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-20" target="vFiyhrASQb_VoO4mL54i-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="370" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-31" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.004;entryY=0.35;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-20" target="vFiyhrASQb_VoO4mL54i-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="623" y="415" />
+              <mxPoint x="623" y="334" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-113" value="是" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-20" target="vFiyhrASQb_VoO4mL54i-111">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-20" value="是否存在可呼叫号码" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="390" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-50" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.2;entryY=0.127;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-52" target="vFiyhrASQb_VoO4mL54i-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="645" />
+              <mxPoint x="650" y="354" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-32" target="vFiyhrASQb_VoO4mL54i-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-32" value="消费者" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="540" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-47" value="外呼" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
+          <mxGeometry x="700" y="260" width="50" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vFiyhrASQb_VoO4mL54i-47">
+          <mxGeometry x="20" y="80" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="645" />
+              <mxPoint x="420" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-55" value="否，任务消费完成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vFiyhrASQb_VoO4mL54i-54">
+          <mxGeometry x="0.0712" y="-4" relative="1" as="geometry">
+            <mxPoint x="-4" y="-37" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-52" target="vFiyhrASQb_VoO4mL54i-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="627.9399999999999" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="621" y="645" />
+              <mxPoint x="621" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-58" value="否，阻塞" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vFiyhrASQb_VoO4mL54i-57">
+          <mxGeometry x="0.256" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-52" value="是否是黑名单" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="620" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-59" value="CTI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;size=20;" vertex="1" parent="1">
+          <mxGeometry x="780" y="260" width="50" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="vFiyhrASQb_VoO4mL54i-59">
+          <mxGeometry x="20" y="80" width="10" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-61" value="发送消息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.2;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-49" target="vFiyhrASQb_VoO4mL54i-60">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="360" />
+              <mxPoint x="750" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-62" value="振铃" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.4;entryY=0.327;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-60" target="vFiyhrASQb_VoO4mL54i-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="780" y="376" />
+              <mxPoint x="780" y="376" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-63" value="接听" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.3;entryY=0.518;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-60" target="vFiyhrASQb_VoO4mL54i-49">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="790" y="397" />
+              <mxPoint x="790" y="397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-66" value="挂断" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.4;entryY=0.736;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-60" target="vFiyhrASQb_VoO4mL54i-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="780" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-75" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-68" target="vFiyhrASQb_VoO4mL54i-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-68">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="720" />
+              <mxPoint x="280" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-92" value="通知生产者继续获取外呼号码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vFiyhrASQb_VoO4mL54i-91">
+          <mxGeometry x="-0.1522" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-93" value="唤醒" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-68" target="vFiyhrASQb_VoO4mL54i-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="477.94" y="570" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="408" y="720" />
+              <mxPoint x="408" y="560" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-68" value="消息处理器" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="477.94" y="700" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-82" value="否" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-74" target="vFiyhrASQb_VoO4mL54i-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-83" value="是" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-74" target="vFiyhrASQb_VoO4mL54i-81">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-74" value="是否接听" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="475.44" y="760" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-95" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-79" target="vFiyhrASQb_VoO4mL54i-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-79" value="振铃音分析系统" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="477.94" y="830" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-86" value="是" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-81" target="vFiyhrASQb_VoO4mL54i-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-81" value="是否将通话数据发送第三方" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="637.9399999999999" y="760" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-85" value="三方系统" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="787.9399999999999" y="765" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-49" target="vFiyhrASQb_VoO4mL54i-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="395" />
+              <mxPoint x="680" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-100" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-94" target="vFiyhrASQb_VoO4mL54i-99">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-107" value="是" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-94" target="vFiyhrASQb_VoO4mL54i-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="677.9399999999999" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="727.9399999999999" y="915" />
+              <mxPoint x="727.9399999999999" y="1070" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-94" value="是否满足重呼条件" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="475.44" y="890" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-96" value="子任务结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="637.9399999999999" y="975" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-103" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-99" target="vFiyhrASQb_VoO4mL54i-96">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="727.9399999999999" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-104" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vFiyhrASQb_VoO4mL54i-103">
+          <mxGeometry x="-0.2414" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-108" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-99" target="vFiyhrASQb_VoO4mL54i-101">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-99" value="是否为白名单用户" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="475.44" y="970" width="125" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-109" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-101">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="1070" />
+              <mxPoint x="220" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-110" value="子任务可重呼解锁" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vFiyhrASQb_VoO4mL54i-109">
+          <mxGeometry x="-0.1018" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-101" value="任务锁定" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="492.94" y="1050" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-114" value="是" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-111" target="vFiyhrASQb_VoO4mL54i-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="vFiyhrASQb_VoO4mL54i-111">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="485" />
+              <mxPoint x="330" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-118" value="否，任务退出" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vFiyhrASQb_VoO4mL54i-117">
+          <mxGeometry x="-0.4502" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vFiyhrASQb_VoO4mL54i-111" value="在策略呼叫时间" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="482.5" y="460" width="125" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
